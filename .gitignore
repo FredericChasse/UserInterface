@@ -1,0 +1,16 @@
+# OS Junk
+.DS_Store
+desktop.ini
+
+# ignoring build directories #
+build/
+Build/
+**/tmp/
+*.o
+*.release
+*.debug
+*.o.tests
+
+
+Debug/
+.vs/

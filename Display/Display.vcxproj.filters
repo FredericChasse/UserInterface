@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{b1c063a9-697a-4c92-a2cc-2d6e5e2bb5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Items">
+      <UniqueIdentifier>{538d89bd-ee6c-4956-976d-04f9fa5e81fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Menus">
+      <UniqueIdentifier>{d8180c47-427c-496c-b0a0-87af6af545e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserInterface.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="UserApp.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ListIterator.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ListItem.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ListMenu.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
